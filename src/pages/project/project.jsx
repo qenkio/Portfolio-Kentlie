@@ -70,6 +70,7 @@ function Project() {
       image: stax,
       description: 'A professional company profile landing page for a tax consulting firm, focused on trust, clarity, and service credibility.',
       fullDescription: 'This landing page represents a tax consulting company that provides comprehensive taxation services for individuals and businesses. The design emphasizes professionalism, clear service explanations, and credibility to build trust with potential clients. With a clean layout and well-structured content, the website helps visitors quickly understand the firm’s expertise, services, and value in navigating complex tax regulations.',
+      date: 'July 2025',
       technologies: ['Wordpress'],
       link: '#',
       github: '#'
