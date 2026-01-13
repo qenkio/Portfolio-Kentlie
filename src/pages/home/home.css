@@ -1,0 +1,230 @@
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem 2rem 2rem;
+  background-color: var(--bg-primary);
+}
+
+.home-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Greeting */
+.greeting {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+
+
+.greeting-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+/* Main Content Grid */
+.main-content {
+  margin-bottom: 1.5rem;
+}
+
+/* Headline */
+.headline-container {
+  text-align: left;
+}
+
+.headline {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text-primary);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.headline .highlight {
+  color: var(--accent);
+}
+
+
+/* Separator Section */
+.separator-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.separator {
+  width: 50%;
+  height: 1px;
+  background-color: var(--border-color);
+  flex-shrink: 0;
+}
+
+.description-inline {
+  flex: 1;
+}
+
+.description-inline .description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin: 0;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+/* Bottom Section */
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.social-link {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.social-link:hover {
+  color: var(--accent);
+}
+
+/* CTA Button */
+.cta-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cta-button {
+  padding: 0.75rem 2rem;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--text-primary);
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.cta-button:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* Mobile/Tablet Responsive */
+@media (max-width: 768px) {
+  .home-section {
+    padding: 0 1.5rem 0 1.5rem;
+    align-items: flex-start;
+    min-height: auto;
+  }
+
+  .greeting {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .main-content {
+    margin-bottom: 2rem;
+  }
+
+  .headline-container {
+    text-align: left;
+  }
+
+  .headline {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .description-inline .description {
+    font-size: 0.95rem;
+  }
+
+  .separator-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .separator {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .description-inline .description {
+    text-align: left;
+  }
+
+  .bottom-section {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  .cta-container {
+    width: auto;
+    justify-content: flex-start;
+  }
+
+  .cta-button {
+    width: auto;
+    padding: 0.5rem 1.2rem;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .headline {
+    font-size: 2rem;
+  }
+
+  .greeting {
+    font-size: 0.85rem;
+  }
+
+  .description-inline .description {
+    font-size: 0.9rem;
+  }
+}
