@@ -8,7 +8,7 @@ function Home() {
         {/* Greeting */}
         <div className="greeting">
 
-          <span className="greeting-text">Hey! It's me Ken,</span>
+          <span className="greeting-text">Hey! It's me kun,</span>
         </div>
 
         {/* Main Content Grid */}
