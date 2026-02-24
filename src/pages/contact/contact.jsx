@@ -201,7 +201,7 @@ function Contact() {
           <p className="footer-text">
             <span className="footer-name">Kentlie Tirta Putra</span>
             <span className="footer-separator"> • </span>
-            <span className="footer-copyright">2025 © All rights reserved</span>
+            <span className="footer-copyright">2026 © All rights reserved</span>
           </p>
         </footer>
       </div>
